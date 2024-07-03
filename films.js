@@ -8,25 +8,61 @@ const filmsTab = [
         director: "Hayao Miyazaki",
         release_date: "1984",
         running_time: "116",
-        people: "A voir",
+        characters: [
+            {
+                id: 1,
+                name: "Nausicaä",
+                gender: "Femme",
+                age: 16,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/b/be/Nausicaa.jpg"
+            },
+            {
+                id: 2,
+                name: "Kushana",
+                gender: "Femme",
+                age: 25,
+                image: "https://www.nautiljon.com/images/perso/00/35/kushana_4553.webp",
+            },
+            {
+                id: 3,
+                name: "Yupa",
+                gender: "Male",
+                age: "Inconnu",
+                image: "https://ghiblishop.fr/wp-content/uploads/2021/11/H-QYYoiK_400x400-1.jpeg",
+            }
+        ],
     },
     {
         id: 2,
-        title: "Le Château dans le cie",
+        title: "Le Château dans le ciel",
         original_title: "天空の城ラピュタ",
         image: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/npOnzAbLh6VOIu3naU5QaEcTepo.jpg",
         description: " Qui est vraiment Sheeta, la petite fille porteuse d'un médaillon aux pouvoirs magiques qui suscite bien des convoitises ? Retenue prisonnière à bord d'un dirigeable, l'enfant affronte une bande de pirates de l'air dirigés par la très pittoresque Dora, puis une armée de militaires à la solde de Muska, un gentleman machiavélique trop poli pour être honnête. Réfugiée dans un village de mineurs où elle rencontre le jeune Pazu, Sheeta va découvrir le secret de ses origines. Et elle prouvera que l'histoire de Laputa, l'île merveilleuse flottant dans les airs, n'était pas une légende...",
         director: "Hayao Miyazaki",
         release_date: "1986",
         running_time: "124",
-        people: [
-        "https://ghibliapi.vercel.app/people/598f7048-74ff-41e0-92ef-87dc1ad980a9",
-        "https://ghibliapi.vercel.app/people/fe93adf2-2f3a-4ec4-9f68-5422f1b87c01",
-        "https://ghibliapi.vercel.app/people/3bc0b41e-3569-4d20-ae73-2da329bf0786",
-        "https://ghibliapi.vercel.app/people/40c005ce-3725-4f15-8409-3e1b1b14b583",
-        "https://ghibliapi.vercel.app/people/5c83c12a-62d5-4e92-8672-33ac76ae1fa0",
-        "https://ghibliapi.vercel.app/people/e08880d0-6938-44f3-b179-81947e7873fc",
-        "https://ghibliapi.vercel.app/people/2a1dad70-802a-459d-8cc2-4ebd8821248b"
+        characters: [
+            {
+                id: 1,
+                name: "Sheeta",
+                gender: "Femme",
+                age: 16,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/b/bb/Sheeta_3.png",
+            },
+            {
+                id: 2,
+                name: "Pazu",
+                gender: "Homme",
+                age: 13,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/8/8b/Pazu.jpg"
+            },
+            {
+                id: 3,
+                name: "Muska",
+                gender: "Male",
+                age: 33,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/d/d5/Muska.jpg"
+            }
         ],
     },
     {
@@ -38,8 +74,21 @@ const filmsTab = [
         director: "Isao Takahata",
         release_date: "1988",
         running_time: "89",
-        people: [
-        "https://ghibliapi.vercel.app/people/"
+        characters: [
+            {
+                id: 1,
+                name: "Seita",
+                gender: "Homme",
+                age: 14,
+                image: "https://i.pinimg.com/736x/3e/6a/18/3e6a181a972e08bbd25f37835c77b007.jpg",
+            },
+            {
+                id: 2,
+                name: "Setsuko",
+                gender: "Femme",
+                age: 4,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/a/a8/Setsuko_Yokokawa.jpg",
+            },      
         ],
     },
     {
@@ -51,17 +100,35 @@ const filmsTab = [
         director: "Hayao Miyazaki",
         release_date: "1988",
         running_time: "86",
-        people: [
-        "https://ghibliapi.vercel.app/people/986faac6-67e3-4fb8-a9ee-bad077c2e7fe",
-        "https://ghibliapi.vercel.app/people/d5df3c04-f355-4038-833c-83bd3502b6b9",
-        "https://ghibliapi.vercel.app/people/3031caa8-eb1a-41c6-ab93-dd091b541e11",
-        "https://ghibliapi.vercel.app/people/87b68b97-3774-495b-bf80-495a5f3e672d",
-        "https://ghibliapi.vercel.app/people/d39deecb-2bd0-4770-8b45-485f26e1381f",
-        "https://ghibliapi.vercel.app/people/591524bc-04fe-4e60-8d61-2425e42ffb2a",
-        "https://ghibliapi.vercel.app/people/c491755a-407d-4d6e-b58a-240ec78b5061",
-        "https://ghibliapi.vercel.app/people/f467e18e-3694-409f-bdb3-be891ade1106",
-        "https://ghibliapi.vercel.app/people/08ffbce4-7f94-476a-95bc-76d3c3969c19",
-        "https://ghibliapi.vercel.app/people/0f8ef701-b4c7-4f15-bd15-368c7fe38d0a"
+        characters: [
+            {
+                id: 1,
+                name: "Totoro",
+                gender: "Male",
+                age: "Très très vieux",
+                image: "https://i.pinimg.com/736x/bc/87/33/bc8733fb65d84a0559c16537c9d51842.jpg",
+            }, 
+            {
+                id: 2,
+                name: "Satsuki Kusakabe",
+                gender: "Femme",
+                age: 10,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/f/f2/Satsuki_Kusakabe.jpg",
+            },  
+            {
+                id: 3,
+                name: "Mei Kusakabe",
+                gender: "Femme",
+                age: 4,
+                image: "https://assets.mycast.io/actor_images/actor-mei-kusakabe-174276_large.jpg",
+            },  
+            {
+                id: 4,
+                name: "Chat-Bus",
+                gender: "Inconnu",
+                age: "Inconnu",
+                image: "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F02%2Ftw-ghibli-park-toyota-ridable-catbus-development-info.jpg",
+            },             
         ],
     },
     {
@@ -73,13 +140,28 @@ const filmsTab = [
         director: "Hayao Miyazaki",
         release_date: "1989",
         running_time: "102",
-        people: [
-        "https://ghibliapi.vercel.app/people/2409052a-9029-4e8d-bfaf-70fd82c8e48d",
-        "https://ghibliapi.vercel.app/people/7151abc6-1a9e-4e6a-9711-ddb50ea572ec",
-        "https://ghibliapi.vercel.app/people/1c1a8054-3a34-4185-bfcf-e8011506f09a",
-        "https://ghibliapi.vercel.app/people/bc838920-7849-43ea-bfb8-7d5e98dc20b6",
-        "https://ghibliapi.vercel.app/people/33f5fea9-c21b-490b-90e0-c4051c372826",
-        "https://ghibliapi.vercel.app/people/d1de1c0e-3fcd-4cef-94eb-bb95cc2314aa"
+        characters: [
+            {
+                id: 1,
+                name: "Kiki",
+                gender: "Femme",
+                age: 13,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/5/59/Kiki.jpg",
+            },  
+            {
+                id: 2,
+                name: "Jiji",
+                gender: "Male",
+                age: 13,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/b/b4/Jiji.jpg",
+            }, 
+            {
+                id: 3,
+                name: "Osono",
+                gender: "Femme",
+                age: "Inconnu",
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/3/3a/Osono.jpg",
+            },  
         ],
     },
     {
@@ -91,8 +173,35 @@ const filmsTab = [
         director: "Hayao Miyazaki",
         release_date: "1992",
         running_time: "93",
-        people: [
-        "https://ghibliapi.vercel.app/people/"
+        characters: [
+            {
+                id: 1,
+                name: "Porco Rosso / Marco Pagot",
+                gender: "Homme",
+                age: 37,
+                image: "https://static.tvtropes.org/pmwiki/pub/images/porco_rosso2_800x_9.jpg",
+            },  
+            {
+                id: 2,
+                name: "Fio Piccolo",
+                gender: "Femme",
+                age: 17,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/c/c2/Fio_Piccolo.jpg",
+            }, 
+            {
+                id: 3,
+                name: "Donald Curtis",
+                gender: "Homme",
+                age: "Inconnu",
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/6/61/Donald_Curtis.jpg",
+            },
+            {
+                id: 4,
+                name: "Madame Gina",
+                gender: "Femme",
+                age: 24,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/e/eb/Gina.jpg",
+            },
         ],
     },
     {
@@ -105,8 +214,28 @@ const filmsTab = [
         director: "Isao Takahata",
         release_date: "1994",
         running_time: "119",
-        people: [
-        "https://ghibliapi.vercel.app/people/"
+        characters: [
+            {
+                id: 1,
+                name: "Shōkichi ",
+                gender: "Male",
+                age: "Inconnu",
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/5/59/Shoukichi_1.jpg",
+            },  
+            {
+                id: 2,
+                name: "Okiyo",
+                gender: "Male",
+                age: "inconnu",
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/b/bd/Okiyo.jpg",
+            }, 
+            {
+                id: 3,
+                name: "Gonta",
+                gender: "Homme",
+                age: "Inconnu",
+                image: "https://cdn.anisearch.fr/images/character/cover/82/82907_400.webp",
+            },
         ],
     },
     {
@@ -118,17 +247,28 @@ const filmsTab = [
         director: "Hayao Miyazaki",
         release_date: "1997",
         running_time: "134",
-        people: [
-        "https://ghibliapi.vercel.app/people/ba924631-068e-4436-b6de-f3283fa848f0",
-        "https://ghibliapi.vercel.app/people/ebe40383-aad2-4208-90ab-698f00c581ab",
-        "https://ghibliapi.vercel.app/people/030555b3-4c92-4fce-93fb-e70c3ae3df8b",
-        "https://ghibliapi.vercel.app/people/ca568e87-4ce2-4afa-a6c5-51f4ae80a60b",
-        "https://ghibliapi.vercel.app/people/e9356bb5-4d4a-4c93-aadc-c83e514bffe3",
-        "https://ghibliapi.vercel.app/people/34277bec-7401-43fa-a00a-5aee64b45b08",
-        "https://ghibliapi.vercel.app/people/91939012-90b9-46e5-a649-96b898073c82",
-        "https://ghibliapi.vercel.app/people/20e3bd33-b35d-41e6-83a4-57ca7f028d38",
-        "https://ghibliapi.vercel.app/people/8bccdc78-545b-49f4-a4c8-756163a38c91",
-        "https://ghibliapi.vercel.app/people/116bfe1b-3ba8-4fa0-8f72-88537a493cb9"
+        characters: [
+            {
+                id: 1,
+                name: "San (Princesse Mononoke",
+                gender: "Femme",
+                age: 16,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/3/3f/San.jpg",
+            },  
+            {
+                id: 2,
+                name: "Ashitaka",
+                gender: "Male",
+                age: 17,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/4/49/Ashitaka.jpg",
+            }, 
+            {
+                id: 3,
+                name: "Moro",
+                gender: "Femelle",
+                age: 300,
+                image: "https://www.superherodb.com/pictures2/portraits/10/050/27653.jpg",
+            },
         ],
     },
     {
@@ -140,8 +280,35 @@ const filmsTab = [
         director: "Hayao Miyazaki",
         release_date: "2001",
         running_time: "124",
-        people: [
-        "https://ghibliapi.vercel.app/people/8228751c-bdc1-4b8d-a6eb-ca0eb909568f"
+        characters: [
+            {
+                id: 1,
+                name: "Chihiro",
+                gender: "Femme",
+                age: 10,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/8/8e/Chihiro_Ogino.jpg/",
+            },  
+            {
+                id: 2,
+                name: "Haku",
+                gender: "Homme",
+                age: 12,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/8/89/Haku-2.png",
+            }, 
+            {
+                id: 3,
+                name: "Yubaba",
+                gender: "Femme",
+                age: 60,
+                image: "https://static.wikia.nocookie.net/movie-villains/images/3/3a/Yubaba.JPG",
+            },
+            {
+                id: 4,
+                name: "Sans-visage",
+                gender: "Inconnu",
+                age: "Inconnu",
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/9/9d/No-Face_infobox.png",
+            },
         ],
     },
     {
@@ -153,8 +320,21 @@ const filmsTab = [
         director: "Hiroyuki Morita",
         release_date: "2002",
         running_time: "75",
-        people: [
-        "https://ghibliapi.vercel.app/people/"
+        characters: [
+            {
+                id: 1,
+                name: "Haru Yoshioka",
+                gender: "Femme",
+                age: 17,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/2/27/Haru_Yoshioka.jpg",
+            },  
+            {
+                id: 2,
+                name: "Humbert von Gikkingen",
+                gender: "Homme",
+                age: "Inconnu",
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/4/4f/Humbert_von_Gikkingen.jpg",
+            }, 
         ],
     },
     {
@@ -166,8 +346,35 @@ const filmsTab = [
         director: "Hayao Miyazaki",
         release_date: "2004",
         running_time: "119",
-        people: [
-        "https://ghibliapi.vercel.app/people/"
+        characters: [
+            {
+                id: 1,
+                name: "Hauru",
+                gender: "Femme",
+                age: 18,
+                image: "https://www.anime-planet.com/images/characters/howl-1838.jpg",
+            },  
+            {
+                id: 2,
+                name: "Sophie Hatter-Pendragon",
+                gender: "Homme",
+                age: "Inconnu",
+                image: "https://s4.anilist.co/file/anilistcdn/character/large/b508-ONXMgE281eHe.jpg",
+            }, 
+            {
+                id: 3,
+                name: "Marco",
+                gender: "Homme",
+                age: 10,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/5/5d/Markl.jpg",
+            }, 
+            {
+                id: 4,
+                name: "Calcifer",
+                gender: "Male",
+                age: "Inconnu",
+                image: "https://i.pinimg.com/736x/c3/13/8b/c3138bc5831545e058d0fb46adce1d34.jpg",
+            }, 
         ],
     },
     {
@@ -179,8 +386,21 @@ const filmsTab = [
         director: "Hayao Miyazaki",
         release_date: "2008",
         running_time: "100",
-        people: [
-        "https://ghibliapi.vercel.app/people/"
+        characters: [
+            {
+                id: 1,
+                name: "Ponyo",
+                gender: "Femme",
+                age: 5,
+                image: "https://www.nautiljon.com/images/perso/00/12/ponyo_7321.webp",
+            },  
+            {
+                id: 2,
+                name: "Sōsuke",
+                gender: "Homme",
+                age: 5,
+                image: "https://pbs.twimg.com/media/EYUgdZNWAAUbrbp?format=jpg",
+            },
         ],
     },
     {
@@ -192,8 +412,21 @@ const filmsTab = [
         director: "Hayao Miyazaki",
         release_date: "2013",
         running_time: "126",
-        people: [
-        "https://ghibliapi.vercel.app/people/"
+        characters: [
+            {
+                id: 1,
+                name: "Jiro Horikoshi",
+                gender: "Homme",
+                age: 30,
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/d/d7/Jirou_Horikoshi.jpg",
+            },  
+            {
+                id: 2,
+                name: "Naoko Satomi",
+                gender: "Femme",
+                age: "Inconnu",
+                image: "https://static.wikia.nocookie.net/studio-ghibli/images/d/d9/Nahoko_Satomi.jpg",
+            },
         ],
     },
 ];
