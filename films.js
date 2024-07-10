@@ -250,7 +250,7 @@ const filmsTab = [
         characters: [
             {
                 id: 1,
-                name: "San (Princesse Mononoke",
+                name: "San  (Mononoke)",
                 gender: "Femme",
                 age: 16,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/3/3f/San.jpg",
@@ -350,14 +350,14 @@ const filmsTab = [
             {
                 id: 1,
                 name: "Hauru",
-                gender: "Femme",
+                gender: "Homme",
                 age: 18,
                 image: "https://www.anime-planet.com/images/characters/howl-1838.jpg",
             },  
             {
                 id: 2,
                 name: "Sophie Hatter-Pendragon",
-                gender: "Homme",
+                gender: "Femme",
                 age: "Inconnu",
                 image: "https://s4.anilist.co/file/anilistcdn/character/large/b508-ONXMgE281eHe.jpg",
             }, 
