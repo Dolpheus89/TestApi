@@ -10,21 +10,21 @@ const filmsTab = [
         running_time: "116",
         characters: [
             {
-                id: 1,
+                id: 11,
                 name: "Nausicaä",
                 gender: "Femme",
                 age: 16,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/b/be/Nausicaa.jpg"
             },
             {
-                id: 2,
+                id: 12,
                 name: "Kushana",
                 gender: "Femme",
                 age: 25,
                 image: "https://www.nautiljon.com/images/perso/00/35/kushana_4553.webp",
             },
             {
-                id: 3,
+                id: 13,
                 name: "Yupa",
                 gender: "Male",
                 age: "Inconnu",
@@ -43,21 +43,21 @@ const filmsTab = [
         running_time: "124",
         characters: [
             {
-                id: 1,
+                id: 21,
                 name: "Sheeta",
                 gender: "Femme",
                 age: 16,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/b/bb/Sheeta_3.png",
             },
             {
-                id: 2,
+                id: 22,
                 name: "Pazu",
                 gender: "Homme",
                 age: 13,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/8/8b/Pazu.jpg"
             },
             {
-                id: 3,
+                id: 23,
                 name: "Muska",
                 gender: "Male",
                 age: 33,
@@ -76,14 +76,14 @@ const filmsTab = [
         running_time: "89",
         characters: [
             {
-                id: 1,
+                id: 31,
                 name: "Seita",
                 gender: "Homme",
                 age: 14,
                 image: "https://i.pinimg.com/736x/3e/6a/18/3e6a181a972e08bbd25f37835c77b007.jpg",
             },
             {
-                id: 2,
+                id: 32,
                 name: "Setsuko",
                 gender: "Femme",
                 age: 4,
@@ -102,28 +102,28 @@ const filmsTab = [
         running_time: "86",
         characters: [
             {
-                id: 1,
+                id: 41,
                 name: "Totoro",
                 gender: "Male",
                 age: "Très très vieux",
                 image: "https://i.pinimg.com/736x/bc/87/33/bc8733fb65d84a0559c16537c9d51842.jpg",
             }, 
             {
-                id: 2,
+                id: 42,
                 name: "Satsuki Kusakabe",
                 gender: "Femme",
                 age: 10,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/f/f2/Satsuki_Kusakabe.jpg",
             },  
             {
-                id: 3,
+                id: 43,
                 name: "Mei Kusakabe",
                 gender: "Femme",
                 age: 4,
                 image: "https://assets.mycast.io/actor_images/actor-mei-kusakabe-174276_large.jpg",
             },  
             {
-                id: 4,
+                id: 44,
                 name: "Chat-Bus",
                 gender: "Inconnu",
                 age: "Inconnu",
@@ -142,21 +142,21 @@ const filmsTab = [
         running_time: "102",
         characters: [
             {
-                id: 1,
+                id: 51,
                 name: "Kiki",
                 gender: "Femme",
                 age: 13,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/5/59/Kiki.jpg",
             },  
             {
-                id: 2,
+                id: 52,
                 name: "Jiji",
                 gender: "Male",
                 age: 13,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/b/b4/Jiji.jpg",
             }, 
             {
-                id: 3,
+                id: 53,
                 name: "Osono",
                 gender: "Femme",
                 age: "Inconnu",
@@ -175,28 +175,28 @@ const filmsTab = [
         running_time: "93",
         characters: [
             {
-                id: 1,
+                id: 61,
                 name: "Porco Rosso / Marco Pagot",
                 gender: "Homme",
                 age: 37,
                 image: "https://static.tvtropes.org/pmwiki/pub/images/porco_rosso2_800x_9.jpg",
             },  
             {
-                id: 2,
+                id: 62,
                 name: "Fio Piccolo",
                 gender: "Femme",
                 age: 17,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/c/c2/Fio_Piccolo.jpg",
             }, 
             {
-                id: 3,
+                id: 63,
                 name: "Donald Curtis",
                 gender: "Homme",
                 age: "Inconnu",
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/6/61/Donald_Curtis.jpg",
             },
             {
-                id: 4,
+                id: 64,
                 name: "Madame Gina",
                 gender: "Femme",
                 age: 24,
@@ -216,21 +216,21 @@ const filmsTab = [
         running_time: "119",
         characters: [
             {
-                id: 1,
+                id: 71,
                 name: "Shōkichi ",
                 gender: "Male",
                 age: "Inconnu",
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/5/59/Shoukichi_1.jpg",
             },  
             {
-                id: 2,
+                id: 72,
                 name: "Okiyo",
                 gender: "Male",
                 age: "inconnu",
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/b/bd/Okiyo.jpg",
             }, 
             {
-                id: 3,
+                id: 73,
                 name: "Gonta",
                 gender: "Homme",
                 age: "Inconnu",
@@ -249,21 +249,21 @@ const filmsTab = [
         running_time: "134",
         characters: [
             {
-                id: 1,
+                id: 81,
                 name: "San  (Mononoke)",
                 gender: "Femme",
                 age: 16,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/3/3f/San.jpg",
             },  
             {
-                id: 2,
+                id: 82,
                 name: "Ashitaka",
                 gender: "Male",
                 age: 17,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/4/49/Ashitaka.jpg",
             }, 
             {
-                id: 3,
+                id: 83,
                 name: "Moro",
                 gender: "Femelle",
                 age: 300,
@@ -282,28 +282,28 @@ const filmsTab = [
         running_time: "124",
         characters: [
             {
-                id: 1,
+                id: 91,
                 name: "Chihiro",
                 gender: "Femme",
                 age: 10,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/8/8e/Chihiro_Ogino.jpg/",
             },  
             {
-                id: 2,
+                id: 92,
                 name: "Haku",
                 gender: "Homme",
                 age: 12,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/8/89/Haku-2.png",
             }, 
             {
-                id: 3,
+                id: 93,
                 name: "Yubaba",
                 gender: "Femme",
                 age: 60,
                 image: "https://static.wikia.nocookie.net/movie-villains/images/3/3a/Yubaba.JPG",
             },
             {
-                id: 4,
+                id: 94,
                 name: "Sans-visage",
                 gender: "Inconnu",
                 age: "Inconnu",
@@ -322,14 +322,14 @@ const filmsTab = [
         running_time: "75",
         characters: [
             {
-                id: 1,
+                id: 1001,
                 name: "Haru Yoshioka",
                 gender: "Femme",
                 age: 17,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/2/27/Haru_Yoshioka.jpg",
             },  
             {
-                id: 2,
+                id: 1002,
                 name: "Humbert von Gikkingen",
                 gender: "Homme",
                 age: "Inconnu",
@@ -348,28 +348,28 @@ const filmsTab = [
         running_time: "119",
         characters: [
             {
-                id: 1,
+                id: 1011,
                 name: "Hauru",
                 gender: "Homme",
                 age: 18,
                 image: "https://www.anime-planet.com/images/characters/howl-1838.jpg",
             },  
             {
-                id: 2,
+                id: 1012,
                 name: "Sophie Hatter-Pendragon",
                 gender: "Femme",
                 age: "Inconnu",
                 image: "https://s4.anilist.co/file/anilistcdn/character/large/b508-ONXMgE281eHe.jpg",
             }, 
             {
-                id: 3,
+                id: 1013,
                 name: "Marco",
                 gender: "Homme",
                 age: 10,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/5/5d/Markl.jpg",
             }, 
             {
-                id: 4,
+                id: 1014,
                 name: "Calcifer",
                 gender: "Male",
                 age: "Inconnu",
@@ -388,14 +388,14 @@ const filmsTab = [
         running_time: "100",
         characters: [
             {
-                id: 1,
+                id: 1021,
                 name: "Ponyo",
                 gender: "Femme",
                 age: 5,
                 image: "https://www.nautiljon.com/images/perso/00/12/ponyo_7321.webp",
             },  
             {
-                id: 2,
+                id: 1022,
                 name: "Sōsuke",
                 gender: "Homme",
                 age: 5,
@@ -414,14 +414,14 @@ const filmsTab = [
         running_time: "126",
         characters: [
             {
-                id: 1,
+                id: 1031,
                 name: "Jiro Horikoshi",
                 gender: "Homme",
                 age: 30,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/d/d7/Jirou_Horikoshi.jpg",
             },  
             {
-                id: 2,
+                id: 1032,
                 name: "Naoko Satomi",
                 gender: "Femme",
                 age: "Inconnu",
