@@ -34,6 +34,27 @@ app.get("/characters/:id", (req, res) => {
     res.json(character);
 });
 
+app.get("/films/:filmId/characters/:characterId?", (req, res) => {
+    const filmId = parseInt(req.params.filmId);
+    const characterId = req.params.characterId ? parseInt(req.params.characterId) : null;
+
+    const film = filmsTab.find((e) => e.id === filmId);
+    if (!film) {
+        return res.status(404).json({ error: "Film not found" });
+    }
+
+    else if (characterId) {
+        const character = film.characters.find((char) => char.id === characterId);
+        if (!character) {
+            return res.status(404).json({ error: "Character not found" });
+        }
+        res.json(character);
+    } else {
+        // Si characterId n'est pas défini, retourner le film entier
+        res.json(film);
+    }
+});
+
 app.listen(serverPort, () => {
     console.info(`http://localhost:${serverPort}`);
 });

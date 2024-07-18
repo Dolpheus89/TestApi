@@ -10,21 +10,21 @@ const filmsTab = [
         running_time: "116",
         characters: [
             {
-                id: 11,
+                id: 111,
                 name: "Nausicaä",
                 gender: "Femme",
                 age: 16,
                 image: "https://static.wikia.nocookie.net/studio-ghibli/images/b/be/Nausicaa.jpg"
             },
             {
-                id: 12,
+                id: 112,
                 name: "Kushana",
                 gender: "Femme",
                 age: 25,
                 image: "https://www.nautiljon.com/images/perso/00/35/kushana_4553.webp",
             },
             {
-                id: 13,
+                id: 113,
                 name: "Yupa",
                 gender: "Male",
                 age: "Inconnu",
